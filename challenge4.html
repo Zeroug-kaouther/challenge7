@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        function checkseason(month){
+          
+          if (month>0 && month<=12) {
+            if (month<=3) {
+                return "winter";                
+            }
+            else if (month<=6) {
+                return "spring";                
+
+            }
+            else if (month<=9) {
+                return "summer";
+            }
+            else if (month<=12) {
+                return "autmn";
+            }
+          }else{
+            return "not existant";
+          }
+            
+        }
+
+        console.log(checkseason(0))
+        console.log(checkseason(1))
+        console.log(checkseason(2))
+        console.log(checkseason(3))
+        console.log(checkseason(4))
+        console.log(checkseason(5))
+        console.log(checkseason(6))
+        console.log(checkseason(7))
+        console.log(checkseason(8))
+        console.log(checkseason(9))
+        console.log(checkseason(10))
+        console.log(checkseason(11))
+        console.log(checkseason(12))
+        console.log(checkseason(13))
+        console.log(checkseason(14))
+        
+    </script>
+</body>
+</html>
